@@ -1,0 +1,65 @@
+/* Container for the review list */
+div {
+    padding: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title */
+  h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  /* No reviews message */
+  p {
+    color: #666;
+    text-align: center;
+  }
+  
+  /* Individual review block */
+  div > div {
+    background: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Review text */
+  p:first-child {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Rating */
+  p:nth-child(2) {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    div {
+      padding: 0.5rem;
+    }
+  
+    h2 {
+      font-size: 1.25rem;
+    }
+  
+    div > div {
+      padding: 0.75rem;
+    }
+  
+    p {
+      font-size: 0.85rem;
+    }
+  }
+  
